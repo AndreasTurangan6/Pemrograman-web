@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif ;
+    scroll-behavior: smooth;
+
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.coloumn {
+    display: flex;
+    width: 500px;
+    align-items: center;
+}
+video{
+    width: 120px; /*ukuran lebar gambar mengisi seluruh kotak*/
+    height: 120px; /*menjaga rasio aspek gambar*/
+    border-radius: 50%;
+    padding: 20px;
+  }
+.sosmed {
+    padding: 5px 0;
+    background-color: #360FA1  ;
+
+}
+.sosmed ul li {
+    display: inline-block;
+    color: aliceblue;
+    margin-right: 12px;
+}
+.container {
+    width: 80%;
+    margin:0 auto ;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+header {
+    position: fixed;
+    background: aliceblue;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+}
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: #360FA1;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 15px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #360FA1;
+    color: aliceblue;
+}
+/*.active {
+    background-color: #360FA1;
+    color: aliceblue;
+}*/
+.banner {
+    height: 100vh;
+    background-image: url('welcome!!.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    color: aliceblue;
+    z-index: 1;
+    text-align: end;
+    font-size: 50px;
+}
+.banner p{
+    color: aliceblue;
+    text-align: end;
+    font-size: 15px;
+}
+.banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: rgba(54, 15, 161, .6);*/
+}
+section{
+    padding: 50px 0;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+section h3{
+    text-align: center;
+    padding: 20px 0px;
+    color: #360FA1;
+    margin-bottom: 20px;
+}
+.about{
+    padding: 100px;
+}
+.about p{
+    color: #666;
+    text-align: center;
+}
+.achievement {
+    background-color: rgb(84, 97, 180, .6);
+}
+
+.box .col-3{
+    width:250px ;
+    margin: 60px;
+    margin-top: 5px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.box p {
+    text-align: center;
+}
+img {
+    width: 120px; /*ukuran lebar gambar mengisi seluruh kotak*/
+    height: 120px; /*menjaga rasio aspek gambar*/
+    border-radius: 50%;
+    padding: 20px;
+  }
+.box .col-4{
+    color: #360FA1;
+    width: 25%;
+    padding: 20px ;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.box .col-4 p{
+    font-size: medium;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px; 
+    font-size: 22px;
+}
+footer{
+    padding: 30px 0;
+    background-color:rgba(3, 3, 3);
+    color: #fff; 
+    text-align: center;
+}
